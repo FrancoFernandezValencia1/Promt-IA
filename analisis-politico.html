@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Análisis Político | Instituto Andino</title>
+  <meta name="description" content="Investigaciones y ensayos sobre instituciones políticas, reformas del Estado y dinámica partidaria en el Perú." />
+  <link rel="stylesheet" href="/src/css/app.css" />
+</head>
+<body class="antialiased">
+
+  <!-- Header reutilizado -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-brand-200" role="banner">
+    <!-- ...mismo markup del header principal... -->
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero de categoría -->
+    <section class="bg-forest-900 text-white py-16 md:py-20">
+      <div class="container-page">
+        <nav aria-label="Migas de pan" class="text-sm text-neutral-brand-200 mb-4">
+          <ol class="flex items-center gap-2">
+            <li><a href="/" class="hover:text-gold-500">Inicio</a></li>
+            <li aria-hidden="true">/</li>
+            <li class="text-white font-medium">Análisis Político</li>
+          </ol>
+        </nav>
+        <p class="section-eyebrow text-gold-500">Línea de investigación</p>
+        <h1 class="font-display text-4xl md:text-5xl font-bold mt-2">Análisis Político</h1>
+        <p class="text-lg text-neutral-brand-100 mt-4 max-w-2xl">
+          Estudios sobre instituciones, reformas constitucionales, dinámica partidaria,
+          relaciones entre poderes y calidad democrática en el Perú contemporáneo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Listado de artículos filtrado -->
+    <section class="container-page py-12 md:py-16">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">
+        <p class="text-sm text-slate-brand-500">
+          Mostrando <strong class="text-forest-900">12 publicaciones</strong> en esta categoría
+        </p>
+        <form class="flex items-center gap-2" role="search" aria-label="Buscar en análisis político">
+          <label for="search-politico" class="sr-only">Buscar</label>
+          <input id="search-politico" type="search" placeholder="Buscar artículos..."
+                 class="px-4 py-2 rounded-md border border-neutral-brand-200 text-sm
+                        focus:border-forest-700 focus:ring-2 focus:ring-forest-700/20" />
+          <button class="p-2 rounded-md bg-forest-700 text-white hover:bg-forest-900"
+                  aria-label="Ejecutar búsqueda">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <!-- Grid de artículos -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Tarjeta destacada (span 2 columnas en desktop) -->
+        <article class="card group md:col-span-2 lg:col-span-2 md:grid md:grid-cols-2">
+          <a href="/articulo/reforma-constitucional" class="block">
+            <div class="aspect-[16/9] md:aspect-auto md:h-full overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-congreso.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+          </a>
+          <div class="p-6 flex flex-col justify-center">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-xs font-semibold uppercase tracking-wider text-terracotta-500 bg-terracotta-50 px-2 py-1 rounded">
+                Destacado
+              </span>
+              <time datetime="2026-08-05" class="text-xs text-slate-brand-500">05 ago 2026</time>
+            </div>
+            <h2 class="font-display text-2xl font-bold text-forest-900 mb-3 group-hover:text-forest-700">
+              Reforma constitucional: riesgos y oportunidades para el equilibrio de poderes
+            </h2>
+            <p class="text-sm text-slate-brand-700 mb-4">
+              Evaluamos el impacto institucional del proyecto de reforma y sus implicancias
+              para el sistema político peruano. Un análisis que combina derecho constitucional
+              y ciencia política comparada.
+            </p>
+            <p class="text-xs text-slate-brand-500">Por Carlos Medina · 15 min de lectura</p>
+          </div>
+        </article>
+
+        <!-- Tarjetas estándar -->
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-partidos.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-terracotta-500">Política</span>
+                <time datetime="2026-07-22" class="text-xs text-slate-brand-500">22 jul 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Crisis de los partidos políticos: 30 años de fragmentación
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por María Quispe</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-regional.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-terracotta-500">Política</span>
+                <time datetime="2026-07-10" class="text-xs text-slate-brand-500">10 jul 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Gobiernos regionales: entre la promesa y la realidad
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Diego Salazar</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-justicia.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-terracotta-500">Política</span>
+                <time datetime="2026-06-28" class="text-xs text-slate-brand-500">28 jun 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Independencia judicial: diagnósticos y rutas de reforma
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Lucía Huamán</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-corrupcion.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-terracotta-500">Política</span>
+                <time datetime="2026-06-15" class="text-xs text-slate-brand-500">15 jun 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Anticorrupción: lecciones de la última década
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Carlos Medina</p>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <!-- Paginación -->
+      <nav aria-label="Paginación de artículos" class="mt-12 flex justify-center">
+        <ul class="flex items-center gap-1">
+          <li>
+            <a href="#" aria-label="Página anterior"
+               class="px-3 py-2 rounded-md text-slate-brand-500 hover:bg-forest-50">
+              ← Anterior
+            </a>
+          </li>
+          <li><a href="#" aria-current="page" class="px-3 py-2 rounded-md bg-forest-700 text-white">1</a></li>
+          <li><a href="#" class="px-3 py-2 rounded-md hover:bg-forest-50 text-slate-brand-700">2</a></li>
+          <li><a href="#" class="px-3 py-2 rounded-md hover:bg-forest-50 text-slate-brand-700">3</a></li>
+          <li><span class="px-2 text-slate-brand-500">…</span></li>
+          <li><a href="#" class="px-3 py-2 rounded-md hover:bg-forest-50 text-slate-brand-700">8</a></li>
+          <li>
+            <a href="#" aria-label="Página siguiente"
+               class="px-3 py-2 rounded-md text-slate-brand-500 hover:bg-forest-50">
+              Siguiente →
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  </main>
+
+  <!-- Footer reutilizado -->
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Análisis Ambiental | Instituto Andino</title>
+  <meta name="description" content="Investigaciones sobre biodiversidad, cambio climático, gobernanza de recursos naturales y transición energética en el Perú." />
+  <link rel="stylesheet" href="/src/css/app.css" />
+</head>
+<body class="antialiased">
+
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-brand-200" role="banner">
+    <!-- ...header reutilizado... -->
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero con imagen de fondo ambiental -->
+    <section class="relative bg-forest-900 text-white py-20 md:py-28 overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="/assets/images/hero-ambiental.jpg" alt="" loading="eager"
+             class="w-full h-full object-cover opacity-30" />
+        <div class="absolute inset-0 bg-gradient-to-t from-forest-900 via-forest-900/80 to-forest-900/60"></div>
+      </div>
+      <div class="container-page relative">
+        <nav aria-label="Migas de pan" class="text-sm text-neutral-brand-200 mb-4">
+          <ol class="flex items-center gap-2">
+            <li><a href="/" class="hover:text-gold-500">Inicio</a></li>
+            <li aria-hidden="true">/</li>
+            <li class="text-white font-medium">Análisis Ambiental</li>
+          </ol>
+        </nav>
+        <p class="section-eyebrow text-gold-500">Línea de investigación</p>
+        <h1 class="font-display text-4xl md:text-5xl font-bold mt-2 max-w-3xl">
+          Análisis Ambiental
+        </h1>
+        <p class="text-lg text-neutral-brand-100 mt-4 max-w-2xl">
+          Biodiversidad, cambio climático, gobernanza de recursos naturales y transición
+          energética en el Perú: investigaciones basadas en evidencia para una gestión
+          ambiental más efectiva.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sub-líneas temáticas -->
+    <section class="container-page py-12 md:py-16">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <button class="p-4 rounded-lg border border-neutral-brand-200 hover:border-forest-700 hover:bg-forest-50 text-left transition">
+          <p class="font-display font-bold text-forest-900">Biodiversidad</p>
+          <p class="text-xs text-slate-brand-500 mt-1">24 publicaciones</p>
+        </button>
+        <button class="p-4 rounded-lg border border-neutral-brand-200 hover:border-forest-700 hover:bg-forest-50 text-left transition">
+          <p class="font-display font-bold text-forest-900">Cambio climático</p>
+          <p class="text-xs text-slate-brand-500 mt-1">18 publicaciones</p>
+        </button>
+        <button class="p-4 rounded-lg border border-neutral-brand-200 hover:border-forest-700 hover:bg-forest-50 text-left transition">
+          <p class="font-display font-bold text-forest-900">Recursos hídricos</p>
+          <p class="text-xs text-slate-brand-500 mt-1">15 publicaciones</p>
+        </button>
+        <button class="p-4 rounded-lg border border-neutral-brand-200 hover:border-forest-700 hover:bg-forest-50 text-left transition">
+          <p class="font-display font-bold text-forest-900">Transición energética</p>
+          <p class="text-xs text-slate-brand-500 mt-1">9 publicaciones</p>
+        </button>
+      </div>
+
+      <!-- Grid de artículos -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Tarjeta destacada -->
+        <article class="card group md:col-span-2 lg:col-span-2 md:grid md:grid-cols-2">
+          <a href="/articulo/deforestacion-amazonica" class="block">
+            <div class="aspect-[16/9] md:aspect-auto md:h-full overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-amazonia.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+          </a>
+          <div class="p-6 flex flex-col justify-center">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-xs font-semibold uppercase tracking-wider text-forest-700 bg-forest-50 px-2 py-1 rounded">
+                Destacado
+              </span>
+              <time datetime="2026-08-10" class="text-xs text-slate-brand-500">10 ago 2026</time>
+            </div>
+            <h2 class="font-display text-2xl font-bold text-forest-900 mb-3 group-hover:text-forest-700">
+              Deforestación en la Amazonía peruana: un balance crítico
+            </h2>
+            <p class="text-sm text-slate-brand-700 mb-4">
+              Un análisis de las tendencias recientes, los actores involucrados y las políticas
+              públicas que han fallado en contener la pérdida de cobertura boscosa.
+            </p>
+            <p class="text-xs text-slate-brand-500">Por María Quispe · 12 min de lectura</p>
+          </div>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-paramo.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-forest-700">Ambiente</span>
+                <time datetime="2026-07-30" class="text-xs text-slate-brand-500">30 jul 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Los páramos andinos: servicios ecosistémicos bajo presión
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Lucía Huamán</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-renovables.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-forest-700">Ambiente</span>
+                <time datetime="2026-07-18" class="text-xs text-slate-brand-500">18 jul 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Energías renovables en el Perú: avances y cuellos de botella
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Diego Salazar</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-glaciares.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-forest-700">Ambiente</span>
+                <time datetime="2026-07-05" class="text-xs text-slate-brand-500">05 jul 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Retroceso glaciar y seguridad hídrica en la costa peruana
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por Carlos Medina</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card group">
+          <a href="#" class="block">
+            <div class="aspect-[16/9] overflow-hidden bg-forest-100">
+              <img src="/assets/images/art-areas.jpg" alt="" loading="lazy"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider text-forest-700">Ambiente</span>
+                <time datetime="2026-06-22" class="text-xs text-slate-brand-500">22 jun 2026</time>
+              </div>
+              <h3 class="font-display text-xl font-bold text-forest-900 mb-2 group-hover:text-forest-700">
+                Áreas naturales protegidas: financiamiento y gestión efectiva
+              </h3>
+              <p class="text-xs text-slate-brand-500">Por María Quispe</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

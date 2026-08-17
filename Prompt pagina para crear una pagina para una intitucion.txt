@@ -1,0 +1,48 @@
+Actúa como un Arquitecto de Software Frontend y Diseñador UX/UI experto en desarrollo web institucional. 
+
+Necesito que diseñes y desarrolles la estructura de código base (HTML5, Tailwind CSS y componentes limpios de JavaScript o un framework moderno como React/Next.js) para un portal web institucional destinado a una organización sin fines de lucro en Perú dedicada al análisis político y ambiental.
+
+---
+
+### 1. Identidad y Enfoque de Diseño
+* **Tono y Estilo:** Seriedad académica combinada con un diseño moderno, limpio y profesional.
+* **Paleta de Colores:** Tonos sobrios inspirados en la naturaleza y la seriedad institucional (por ejemplo: verde bosque profundo, azul pizarra, grises neutros y acentos sutiles terracota o dorado institucional).
+* **Tipografía:** Fuentes altamente legibles y elegantes (ej. Inter para cuerpo y Playfair Display o Merriweather para títulos).
+* **Accesibilidad (a11y):** Cumplimiento estricto con los estándares WCAG 2.1 (contraste de colores adecuado, etiquetas ARIA, navegación por teclado y soporte para lectores de pantalla).
+* **Responsive Design:** Diseño adaptativo impecable (Mobile First) para smartphones, tablets y pantallas de escritorio.
+
+---
+
+### 2. Estructura y Secciones del Sitio Web
+
+#### A. Cabecera (Header / Navegación)
+* Logotipo institucional alineado a la izquierda.
+* Menú de navegación principal: Inicio, Quiénes Somos, Análisis Político, Análisis Ambiental, Podcast, Multimedia y Contacto.
+* Botón de llamada a la acción (CTA) discreto: "Apóyanos" o "Boletín".
+
+#### B. Sección Principal (Hero Section)
+* Título de alto impacto institucional y subtítulo descriptivo sobre la misión de la organización.
+* Imagen de fondo o slider de alta calidad con temática ambiental/política de Perú.
+* Acceso directo a los últimos artículos o investigaciones destacadas.
+
+#### C. Sección de Artículos de Opinión / Investigaciones
+* Grid de tarjetas (cards) que muestren: Categoría (Política / Ambiente), Título del artículo, Extracto breve, Fecha, Autor y enlace de lectura.
+* Filtros rápidos por categoría o etiquetas.
+
+#### D. Sección de Podcast (Con Reproductor Integrado)
+* Interfaz dedicada para listar episodios recientes.
+* **Reproductor de audio funcional incrustado** (Play/Pause, barra de progreso, control de volumen y duración) para escuchar directamente en la página.
+* Enlaces opcionales a plataformas externas (Spotify, Apple Podcasts).
+
+#### E. Sección Multimedia (Galerías de Fotos y Videos)
+* Pestañas o secciones separadas para **Galería Fotográfica** (grid de imágenes con efecto lightbox al hacer clic) y **Galería de Videos** (integración responsive para reproductores de YouTube o Vimeo).
+
+#### F. Pie de Página (Footer)
+* Enlaces rápidos, mapa del sitio, redes sociales oficiales, información de contacto, aviso legal y créditos institucionales.
+
+---
+
+### 3. Entregables Esperados
+1. **Estructura de archivos recomendada** para el proyecto.
+2. **Código fuente limpio y comentado** (HTML y Tailwind CSS / componentes base).
+3. **Buenas prácticas** implementadas en términos de rendimiento, SEO básico y accesibilidad.

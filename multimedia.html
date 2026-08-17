@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multimedia | Instituto Andino</title>
+  <meta name="description" content="Galería fotográfica y videos del Instituto Andino: trabajo de campo, conferencias y documentales." />
+  <link rel="stylesheet" href="/src/css/app.css" />
+</head>
+<body class="antialiased">
+
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-brand-200" role="banner">
+    <!-- ...header reutilizado... -->
+  </header>
+
+  <main id="main-content">
+
+    <section class="container-page py-12 md:py-16">
+      <p class="section-eyebrow">Multimedia</p>
+      <h1 class="section-title">Galería visual</h1>
+      <p class="text-slate-brand-700 mt-3 max-w-2xl">
+        Fotografías de nuestro trabajo de campo, conferencias y eventos institucionales,
+        así como videos y documentales producidos por el equipo.
+      </p>
+
+      <!-- Tabs -->
+      <div class="flex gap-2 mt-10 border-b border-neutral-brand-200" role="tablist" aria-label="Tipo de contenido multimedia">
+        <button id="tab-fotos" role="tab" aria-selected="true" aria-controls="panel-fotos"
+                class="tab-btn px-4 py-3 font-medium border-b-2 border-forest-700 text-forest-700">
+          Fotografías
+        </button>
+        <button id="tab-videos" role="tab" aria-selected="false" aria-controls="panel-videos"
+                class="tab-btn px-4 py-3 font-medium border-b-2 border-transparent text-slate-brand-500 hover:text-forest-700">
+          Videos
+        </button>
+      </div>
+
+      <!-- Panel Fotos -->
+      <div id="panel-fotos" role="tabpanel" aria-labelledby="tab-fotos" tabindex="0" class="py-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-01.jpg" data-caption="Trabajo de campo en la Amazonía, 2026">
+            <img src="/assets/images/gal-01.jpg" alt="Investigadores en trabajo de campo amazónico"
+                 loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute inset-0 bg-forest-900/0 group-hover:bg-forest-900/40 transition flex items-end p-3 opacity-0 group-hover:opacity-100">
+              <span class="text-white text-xs font-medium">Ver imagen</span>
+            </span>
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-02.jpg" data-caption="Foro institucional, Lima 2026">
+            <img src="/assets/images/gal-02.jpg" alt="Foro institucional en Lima" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-03.jpg" data-caption="Ecosistema andino, Cusco">
+            <img src="/assets/images/gal-03.jpg" alt="Paisaje andino en Cusco" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-04.jpg" data-caption="Presentación pública de informe">
+            <img src="/assets/images/gal-04.jpg" alt="Presentación pública de informe" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-05.jpg" data-caption="Reunión con comunidades, Puno">
+            <img src="/assets/images/gal-05.jpg" alt="Reunión con comunidades en Puno" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-06.jpg" data-caption="Taller de capacitación, Arequipa">
+            <img src="/assets/images/gal-06.jpg" alt="Taller de capacitación en Arequipa" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-07.jpg" data-caption="Monitoreo ambiental, Loreto">
+            <img src="/assets/images/gal-07.jpg" alt="Monitoreo ambiental en Loreto" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+          <button class="lightbox-trigger aspect-square overflow-hidden rounded-lg bg-forest-100 group relative"
+                  data-src="/assets/images/gal-08.jpg" data-caption="Conferencia magistral, Lima">
+            <img src="/assets/images/gal-08.jpg" alt="Conferencia magistral en Lima" loading="lazy"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </button>
+        </div>
+      </div>
+
+      <!-- Panel Videos -->
+      <div id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" tabindex="0" hidden class="py-8">
+        <div class="grid md:grid-cols-2 gap-6">
+          <article class="card overflow-hidden">
+            <div class="aspect-video bg-forest-100">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      title="Conferencia: Políticas ambientales en el Perú"
+                      loading="lazy" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+            <div class="p-5">
+              <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Conferencia</p>
+              <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+                Políticas ambientales en el Perú: balance y perspectivas
+              </h3>
+              <p class="text-sm text-slate-brand-500 mt-1">15 mar 2026 · 1h 12min</p>
+            </div>
+          </article>
+
+          <article class="card overflow-hidden">
+            <div class="aspect-video bg-forest-100">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      title="Documental: Voces del bosque"
+                      loading="lazy" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+            <div class="p-5">
+              <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Documental</p>
+              <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+                Voces del bosque: comunidades y conservación
+              </h3>
+              <p class="text-sm text-slate-brand-500 mt-1">22 feb 2026 · 28min</p>
+            </div>
+          </article>
+
+          <article class="card overflow-hidden">
+            <div class="aspect-video bg-forest-100">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      title="Mesa de diálogo: Descentralización"
+                      loading="lazy" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+            <div class="p-5">
+              <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Mesa de diálogo</p>
+              <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+                Descentralización: desafíos pendientes
+              </h3>
+              <p class="text-sm text-slate-brand-500 mt-1">10 ene 2026 · 58min</p>
+            </div>
+          </article>
+
+          <article class="card overflow-hidden">
+            <div class="aspect-video bg-forest-100">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      title="Entrevista: Transición energética"
+                      loading="lazy" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+            <div class="p-5">
+              <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Entrevista</p>
+              <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+                Transición energética: el rol del Estado
+              </h3>
+              <p class="text-sm text-slate-brand-500 mt-1">05 dic 2025 · 35min</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

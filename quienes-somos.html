@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiénes Somos | Instituto Andino</title>
+  <meta name="description" content="Conoce al equipo, la misión y los valores del Instituto Andino de Análisis Político y Ambiental." />
+  <link rel="stylesheet" href="/src/css/app.css" />
+</head>
+<body class="antialiased">
+
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-brand-200" role="banner">
+    <div class="container-page">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="/" class="flex items-center gap-3 group" aria-label="Inicio - Instituto Andino">
+          <div class="w-10 h-10 rounded-md bg-forest-700 flex items-center justify-center text-white font-display text-xl font-bold">IA</div>
+          <div class="hidden sm:block leading-tight">
+            <p class="font-display text-forest-900 font-bold text-lg">Instituto Andino</p>
+            <p class="text-xs text-slate-brand-500 tracking-wide uppercase">Política · Ambiente</p>
+          </div>
+        </a>
+        <nav aria-label="Navegación principal" class="hidden lg:block">
+          <ul class="flex items-center gap-8">
+            <li><a href="/" class="text-slate-brand-700 hover:text-forest-900">Inicio</a></li>
+            <li><a href="/quienes-somos" class="text-forest-700 font-medium">Quiénes Somos</a></li>
+            <li><a href="/analisis-politico" class="text-slate-brand-700 hover:text-forest-900">Análisis Político</a></li>
+            <li><a href="/analisis-ambiental" class="text-slate-brand-700 hover:text-forest-900">Análisis Ambiental</a></li>
+            <li><a href="/podcast" class="text-slate-brand-700 hover:text-forest-900">Podcast</a></li>
+            <li><a href="/multimedia" class="text-slate-brand-700 hover:text-forest-900">Multimedia</a></li>
+            <li><a href="/contacto" class="text-slate-brand-700 hover:text-forest-900">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-3">
+          <a href="/apoyanos" class="hidden md:inline-flex btn-primary text-sm">Apóyanos</a>
+          <button id="menu-toggle" class="lg:hidden p-2 text-forest-700 hover:bg-forest-50 rounded" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" hidden class="lg:hidden pb-4">
+        <nav aria-label="Navegación móvil">
+          <ul class="flex flex-col gap-1">
+            <li><a href="/" class="block px-3 py-2 rounded hover:bg-forest-50">Inicio</a></li>
+            <li><a href="/quienes-somos" class="block px-3 py-2 rounded hover:bg-forest-50 text-forest-700 font-medium">Quiénes Somos</a></li>
+            <li><a href="/analisis-politico" class="block px-3 py-2 rounded hover:bg-forest-50">Análisis Político</a></li>
+            <li><a href="/analisis-ambiental" class="block px-3 py-2 rounded hover:bg-forest-50">Análisis Ambiental</a></li>
+            <li><a href="/podcast" class="block px-3 py-2 rounded hover:bg-forest-50">Podcast</a></li>
+            <li><a href="/multimedia" class="block px-3 py-2 rounded hover:bg-forest-50">Multimedia</a></li>
+            <li><a href="/contacto" class="block px-3 py-2 rounded hover:bg-forest-50">Contacto</a></li>
+            <li class="pt-2"><a href="/apoyanos" class="btn-primary w-full">Apóyanos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <nav aria-label="Migas de pan" class="container-page py-4 text-sm text-slate-brand-500">
+      <ol class="flex items-center gap-2" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="/" class="hover:text-forest-700"><span itemprop="name">Inicio</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-hidden="true">/</li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" class="text-forest-900 font-medium">Quiénes Somos</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <section class="container-page py-12 md:py-20">
+      <div class="max-w-3xl">
+        <p class="section-eyebrow">Nuestra identidad</p>
+        <h1 class="section-title">Pensamiento independiente para el Perú</h1>
+        <p class="text-lg text-slate-brand-700 mt-4 leading-relaxed">
+          Somos un centro de estudios fundado en 2015 que produce investigación rigurosa, análisis crítico y propuestas de política pública en las intersecciones entre gobernanza, desarrollo y medio ambiente.
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-forest-900 text-white py-16">
+      <div class="container-page grid md:grid-cols-3 gap-8">
+        <article class="p-6 bg-white/5 rounded-lg border border-white/10">
+          <div class="w-12 h-12 rounded-full bg-gold-500 text-forest-900 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h2 class="font-display text-2xl font-bold mb-3">Misión</h2>
+          <p class="text-neutral-brand-100 text-sm leading-relaxed">Generar conocimiento independiente y evidencia de calidad para iluminar el debate público sobre los grandes desafíos políticos y ambientales del Perú.</p>
+        </article>
+        <article class="p-6 bg-white/5 rounded-lg border border-white/10">
+          <div class="w-12 h-12 rounded-full bg-gold-500 text-forest-900 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+          </div>
+          <h2 class="font-display text-2xl font-bold mb-3">Visión</h2>
+          <p class="text-neutral-brand-100 text-sm leading-relaxed">Un Perú donde las decisiones públicas se sustenten en evidencia sólida, diálogo plural y respeto por los ecosistemas que sostienen la vida.</p>
+        </article>
+        <article class="p-6 bg-white/5 rounded-lg border border-white/10">
+          <div class="w-12 h-12 rounded-full bg-gold-500 text-forest-900 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h2 class="font-display text-2xl font-bold mb-3">Valores</h2>
+          <ul class="text-neutral-brand-100 text-sm leading-relaxed space-y-1">
+            <li>• Rigor metodológico</li>
+            <li>• Independencia institucional</li>
+            <li>• Pluralidad de perspectivas</li>
+            <li>• Compromiso con lo público</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container-page py-16 md:py-24">
+      <header class="mb-10">
+        <p class="section-eyebrow">Equipo</p>
+        <h2 class="section-title">Investigadores y colaboradores</h2>
+      </header>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <article class="card text-center p-6">
+          <img src="/assets/images/team-01.jpg" alt="Fotografía de María Quispe" loading="lazy" class="w-28 h-28 rounded-full mx-auto object-cover mb-4" />
+          <h3 class="font-display text-lg font-bold text-forest-900">María Quispe</h3>
+          <p class="text-sm text-gold-600 font-medium mt-1">Directora de Investigación</p>
+          <p class="text-xs text-slate-brand-500 mt-3">Politóloga por la PUCP. Maestría en Políticas Públicas (LSE).</p>
+        </article>
+        <article class="card text-center p-6">
+          <img src="/assets/images/team-02.jpg" alt="Fotografía de Carlos Medina" loading="lazy" class="w-28 h-28 rounded-full mx-auto object-cover mb-4" />
+          <h3 class="font-display text-lg font-bold text-forest-900">Carlos Medina</h3>
+          <p class="text-sm text-gold-600 font-medium mt-1">Investigador Senior</p>
+          <p class="text-xs text-slate-brand-500 mt-3">Especialista en instituciones políticas y reforma del Estado.</p>
+        </article>
+        <article class="card text-center p-6">
+          <img src="/assets/images/team-03.jpg" alt="Fotografía de Lucía Huamán" loading="lazy" class="w-28 h-28 rounded-full mx-auto object-cover mb-4" />
+          <h3 class="font-display text-lg font-bold text-forest-900">Lucía Huamán</h3>
+          <p class="text-sm text-gold-600 font-medium mt-1">Investigadora Asociada</p>
+          <p class="text-xs text-slate-brand-500 mt-3">Economista ambiental. PhD en Desarrollo Sostenible.</p>
+        </article>
+        <article class="card text-center p-6">
+          <img src="/assets/images/team-04.jpg" alt="Fotografía de Diego Salazar" loading="lazy" class="w-28 h-28 rounded-full mx-auto object-cover mb-4" />
+          <h3 class="font-display text-lg font-bold text-forest-900">Diego Salazar</h3>
+          <p class="text-sm text-gold-600 font-medium mt-1">Coordinador de Podcast</p>
+          <p class="text-xs text-slate-brand-500 mt-3">Periodista especializado en política y medio ambiente.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-forest-900 text-neutral-brand-100" role="contentinfo">
+    <div class="container-page py-12 md:py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-md bg-white/10 flex items-center justify-center text-white font-display font-bold">IA</div>
+            <p class="font-display font-bold text-lg text-white">Instituto Andino</p>
+          </div>
+          <p class="text-sm text-neutral-brand-200">Think tank independiente dedicado al análisis de política pública y medio ambiente en el Perú.</p>
+        </div>
+        <nav aria-label="Mapa del sitio">
+          <h3 class="font-display text-white font-bold mb-4">Navegación</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/quienes-somos" class="hover:text-gold-500">Quiénes Somos</a></li>
+            <li><a href="/analisis-politico" class="hover:text-gold-500">Análisis Político</a></li>
+            <li><a href="/analisis-ambiental" class="hover:text-gold-500">Análisis Ambiental</a></li>
+            <li><a href="/podcast" class="hover:text-gold-500">Podcast</a></li>
+            <li><a href="/multimedia" class="hover:text-gold-500">Multimedia</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h3 class="font-display text-white font-bold mb-4">Contacto</h3>
+          <address class="not-italic text-sm space-y-2">
+            <p>Av. Javier Prado Este 421, San Isidro, Lima, Perú</p>
+            <p><a href="mailto:contacto@ejemplo.org" class="hover:text-gold-500">contacto@ejemplo.org</a></p>
+            <p><a href="tel:+5115551234" class="hover:text-gold-500">+51 1 555 1234</a></p>
+          </address>
+        </div>
+        <div>
+          <h3 class="font-display text-white font-bold mb-4">Boletín mensual</h3>
+          <form class="space-y-2" aria-label="Suscripción al boletín">
+            <label for="newsletter-email" class="sr-only">Correo electrónico</label>
+            <input id="newsletter-email" type="email" required placeholder="tu@correo.com" class="w-full px-3 py-2 rounded bg-white/10 border border-white/20 placeholder:text-white/50 text-white text-sm focus:border-gold-500" />
+            <button type="submit" class="btn-primary w-full text-sm bg-gold-500 hover:bg-gold-600">Suscribirme</button>
+          </form>
+        </div>
+      </div>
+      <div class="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between gap-4 text-xs text-neutral-brand-200">
+        <p>© 2026 Instituto Andino. Todos los derechos reservados.</p>
+        <nav aria-label="Legal">
+          <ul class="flex gap-4">
+            <li><a href="/aviso-legal" class="hover:text-gold-500">Aviso legal</a></li>
+            <li><a href="/privacidad" class="hover:text-gold-500">Privacidad</a></li>
+            <li><a href="/cookies" class="hover:text-gold-500">Cookies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/js/app.js"></script>
+</body>
+</html>

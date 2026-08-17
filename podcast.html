@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podcast — Voces del Instituto | Instituto Andino</title>
+  <meta name="description" content="Conversaciones con investigadores, tomadores de decisión y actores sociales sobre política y medio ambiente en el Perú." />
+  <link rel="stylesheet" href="/src/css/app.css" />
+</head>
+<body class="antialiased">
+
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-brand-200" role="banner">
+    <!-- ...header reutilizado... -->
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero podcast -->
+    <section class="bg-forest-900 text-white py-16 md:py-24">
+      <div class="container-page grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="section-eyebrow text-gold-500">Podcast oficial</p>
+          <h1 class="font-display text-4xl md:text-5xl font-bold mt-2">Voces del Instituto</h1>
+          <p class="text-lg text-neutral-brand-100 mt-4">
+            Conversaciones quincenales con investigadores, tomadores de decisión y actores
+            sociales sobre los temas que definen el presente del país.
+          </p>
+
+          <!-- Plataformas -->
+          <div class="flex flex-wrap gap-3 mt-6">
+            <a href="https://open.spotify.com" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-600 hover:bg-green-700 text-white text-sm font-medium">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              Spotify
+            </a>
+            <a href="https://podcasts.apple.com" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-brand-700 hover:bg-slate-brand-900 text-white text-sm font-medium">
+              Apple Podcasts
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-terracotta-500 hover:bg-terracotta-600 text-white text-sm font-medium">
+              RSS Feed
+            </a>
+          </div>
+        </div>
+
+        <!-- Cover del podcast -->
+        <div class="aspect-square max-w-sm mx-auto rounded-lg overflow-hidden shadow-2xl">
+          <img src="/assets/images/podcast-cover.jpg" alt="Cover del podcast Voces del Instituto"
+               class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Episodio destacado con reproductor -->
+    <section class="container-page py-12 md:py-16">
+      <p class="section-eyebrow">Último episodio</p>
+      <h2 class="section-title">Ep. 24 · El futuro de las áreas naturales protegidas</h2>
+
+      <article class="mt-6 bg-neutral-brand-50 rounded-xl p-6 md:p-8">
+        <div class="grid md:grid-cols-3 gap-6">
+          <img src="/assets/images/ep-01.jpg" alt="" loading="lazy"
+               class="aspect-square rounded-lg object-cover w-full" />
+          <div class="md:col-span-2">
+            <p class="text-sm text-slate-brand-500">
+              Emitido el <time datetime="2026-08-12">12 de agosto de 2026</time> · 52 min
+            </p>
+            <p class="text-base text-slate-brand-700 mt-3 leading-relaxed">
+              Conversamos con la Dra. Ana Torres, ex jefa del SERNANP, sobre los desafíos
+              de financiamiento, vigilancia y articulación con comunidades que enfrentan las
+              áreas naturales protegidas en el Perú.
+            </p>
+
+            <!-- Reproductor -->
+            <div class="mt-6 bg-white rounded-lg p-4 shadow-soft"
+                 data-audio-player data-src="/assets/audio/ep-24.mp3">
+              <audio preload="metadata">
+                <source src="/assets/audio/ep-24.mp3" type="audio/mpeg" />
+              </audio>
+              <div class="flex items-center gap-4">
+                <button class="play-btn w-12 h-12 rounded-full bg-forest-700 hover:bg-forest-900
+                               flex items-center justify-center text-white flex-shrink-0"
+                        aria-label="Reproducir episodio">
+                  <svg class="play-icon w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                  <svg class="pause-icon w-5 h-5 hidden" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6 4h4v16H6zM14 4h4v16h-4z"/>
+                  </svg>
+                </button>
+                <div class="flex-1">
+                  <input type="range" min="0" max="100" value="0"
+                         class="progress-bar w-full h-1.5 bg-neutral-brand-200 rounded-full appearance-none cursor-pointer
+                                [&::-webkit-slider-thumb]:appearance-none
+                                [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4
+                                [&::-webkit-slider-thumb]:rounded-full
+                                [&::-webkit-slider-thumb]:bg-forest-700"
+                         aria-label="Progreso" />
+                  <div class="flex justify-between text-xs text-slate-brand-500 mt-1">
+                    <span class="current-time">0:00</span>
+                    <span class="duration">--:--</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Listado de episodios anteriores -->
+    <section class="container-page pb-16">
+      <h2 class="section-title">Episodios anteriores</h2>
+      <div class="mt-8 space-y-4">
+
+        <article class="card flex items-start gap-4 p-4">
+          <img src="/assets/images/ep-02.jpg" alt="" loading="lazy" class="w-24 h-24 rounded object-cover flex-shrink-0" />
+          <div class="flex-1">
+            <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Episodio 23</p>
+            <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+              Crisis hídrica en Lima: gobernanza y equidad
+            </h3>
+            <p class="text-sm text-slate-brand-700 mt-1 line-clamp-2">
+              Analizamos la gestión del agua en la capital y las desigualdades en el acceso.
+            </p>
+            <p class="text-xs text-slate-brand-500 mt-2">28 jul 2026 · 42 min</p>
+          </div>
+        </article>
+
+        <article class="card flex items-start gap-4 p-4">
+          <img src="/assets/images/ep-03.jpg" alt="" loading="lazy" class="w-24 h-24 rounded object-cover flex-shrink-0" />
+          <div class="flex-1">
+            <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Episodio 22</p>
+            <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+              Descentralización pendiente: 20 años de reformas
+            </h3>
+            <p class="text-sm text-slate-brand-700 mt-1 line-clamp-2">
+              Un balance crítico del proceso de descentralización en el Perú.
+            </p>
+            <p class="text-xs text-slate-brand-500 mt-2">14 jul 2026 · 38 min</p>
+          </div>
+        </article>
+
+        <article class="card flex items-start gap-4 p-4">
+          <img src="/assets/images/ep-04.jpg" alt="" loading="lazy" class="w-24 h-24 rounded object-cover flex-shrink-0" />
+          <div class="flex-1">
+            <p class="text-xs text-gold-600 font-semibold uppercase tracking-wider">Episodio 21</p>
+            <h3 class="font-display text-lg font-bold text-forest-900 mt-1">
+              Transición energética: ¿hacia dónde va el Perú?
+            </h3>
+            <p class="text-sm text-slate-brand-700 mt-1 line-clamp-2">
+              Conversamos con expertos sobre el futuro energético del país.
+            </p>
+            <p class="text-xs text-slate-brand-500 mt-2">30 jun 2026 · 47 min</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>

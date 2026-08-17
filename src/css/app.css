@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-forest: #1b3a2f;
+    --color-gold:   #b8860b;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1e293b;
+    background-color: #fafaf9;
+  }
+  h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; }
+
+  /* Focus visible accesible */
+  :focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-5 py-2.5
+           bg-forest-700 text-white font-medium rounded-md
+           hover:bg-forest-900 transition-colors
+           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-4 py-2
+           text-forest-700 font-medium rounded-md border border-forest-700
+           hover:bg-forest-50 transition-colors;
+  }
+  .card {
+    @apply bg-white rounded-lg shadow-soft overflow-hidden
+           hover:shadow-md transition-shadow;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-display text-forest-900 mb-2;
+  }
+  .section-eyebrow {
+    @apply text-sm font-semibold tracking-widest uppercase text-gold-500;
+  }
+}
+
+/* Reducción de movimiento para accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

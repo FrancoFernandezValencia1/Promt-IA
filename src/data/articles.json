@@ -1,0 +1,92 @@
+{
+  "articles": [
+    {
+      "id": "deforestacion-amazonica",
+      "slug": "deforestacion-amazonica",
+      "title": "Deforestación en la Amazonía peruana: un balance crítico",
+      "excerpt": "Un análisis de las tendencias recientes, los actores involucrados y las políticas públicas que han fallado en contener la pérdida de cobertura boscosa.",
+      "category": "ambiente",
+      "subcategory": "biodiversidad",
+      "author": {
+        "name": "María Quispe",
+        "role": "Directora de Investigación",
+        "avatar": "/assets/images/team-01.jpg"
+      },
+      "publishedAt": "2026-08-10",
+      "readingTime": 12,
+      "featured": true,
+      "image": "/assets/images/art-amazonia.jpg",
+      "tags": ["amazonía", "deforestación", "política ambiental"]
+    },
+    {
+      "id": "reforma-constitucional",
+      "slug": "reforma-constitucional",
+      "title": "Reforma constitucional: riesgos y oportunidades",
+      "excerpt": "Evaluamos el impacto institucional del proyecto de reforma y sus implicancias para el equilibrio de poderes en el Estado peruano.",
+      "category": "politica",
+      "subcategory": "instituciones",
+      "author": {
+        "name": "Carlos Medina",
+        "role": "Investigador Senior",
+        "avatar": "/assets/images/team-02.jpg"
+      },
+      "publishedAt": "2026-08-05",
+      "readingTime": 15,
+      "featured": true,
+      "image": "/assets/images/art-congreso.jpg",
+      "tags": ["constitución", "reforma", "poderes del Estado"]
+    },
+    {
+      "id": "mineria-artesanal",
+      "slug": "mineria-artesanal",
+      "title": "Minería artesanal en Madre de Dios: economía informal y Estado",
+      "excerpt": "Un estudio de campo sobre las dinámicas económicas, sociales y ambientales de la minería aurífera informal en la región sureste.",
+      "category": "gobernanza",
+      "subcategory": "economia-informal",
+      "author": {
+        "name": "Lucía Huamán",
+        "role": "Investigadora Asociada",
+        "avatar": "/assets/images/team-03.jpg"
+      },
+      "publishedAt": "2026-07-28",
+      "readingTime": 10,
+      "featured": false,
+      "image": "/assets/images/art-mineria.jpg",
+      "tags": ["minería", "Madre de Dios", "informalidad"]
+    },
+    {
+      "id": "crisis-partidos",
+      "slug": "crisis-partidos",
+      "title": "Crisis de los partidos políticos: 30 años de fragmentación",
+      "excerpt": "Un recorrido analítico por las causas estructurales de la debilidad partidaria en el Perú.",
+      "category": "politica",
+      "author": {
+        "name": "María Quispe",
+        "role": "Directora de Investigación",
+        "avatar": "/assets/images/team-01.jpg"
+      },
+      "publishedAt": "2026-07-22",
+      "readingTime": 9,
+      "featured": false,
+      "image": "/assets/images/art-partidos.jpg",
+      "tags": ["partidos", "sistema político"]
+    },
+    {
+      "id": "paramos-andinos",
+      "slug": "paramos-andinos",
+      "title": "Los páramos andinos: servicios ecosistémicos bajo presión",
+      "excerpt": "Analizamos el estado de conservación de los páramos y su rol crítico en la provisión de agua.",
+      "category": "ambiente",
+      "author": {
+        "name": "Lucía Huamán",
+        "role": "Investigadora Asociada",
+        "avatar": "/assets/images/team-03.jpg"
+      },
+      "publishedAt": "2026-07-30",
+      "readingTime": 8,
+      "featured": false,
+      "image": "/assets/images/art-paramo.jpg",
+      "tags": ["páramos", "agua", "ecosistemas"]
+    }
+  ]
+}

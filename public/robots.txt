@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ejemplo.org/sitemap.xml
+
+# Bloquear recursos internos
+Disallow: /src/data/
+Disallow: /src/js/utils/

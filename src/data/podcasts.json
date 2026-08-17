@@ -1,0 +1,63 @@
+{
+  "show": {
+    "title": "Voces del Instituto",
+    "description": "Conversaciones quincenales con investigadores, tomadores de decisión y actores sociales sobre los temas que definen el presente del país.",
+    "cover": "/assets/images/podcast-cover.jpg",
+    "language": "es",
+    "platforms": {
+      "spotify": "https://open.spotify.com/show/ejemplo",
+      "apple": "https://podcasts.apple.com/podcast/ejemplo",
+      "rss": "/feed.xml"
+    }
+  },
+  "episodes": [
+    {
+      "id": 24,
+      "title": "El futuro de las áreas naturales protegidas",
+      "description": "Conversamos con la Dra. Ana Torres, ex jefa del SERNANP, sobre los desafíos de financiamiento, vigilancia y articulación con comunidades.",
+      "guest": "Dra. Ana Torres",
+      "publishedAt": "2026-08-12",
+      "duration": "52:14",
+      "durationSeconds": 3134,
+      "audioUrl": "/assets/audio/ep-24.mp3",
+      "cover": "/assets/images/ep-01.jpg",
+      "featured": true
+    },
+    {
+      "id": 23,
+      "title": "Crisis hídrica en Lima: gobernanza y equidad",
+      "description": "Analizamos la gestión del agua en la capital y las desigualdades en el acceso.",
+      "guest": "Ing. Roberto Cáceres",
+      "publishedAt": "2026-07-28",
+      "duration": "42:08",
+      "durationSeconds": 2528,
+      "audioUrl": "/assets/audio/ep-23.mp3",
+      "cover": "/assets/images/ep-02.jpg",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "title": "Descentralización pendiente: 20 años de reformas",
+      "description": "Un balance crítico del proceso de descentralización en el Perú.",
+      "guest": "Dr. Javier Ortiz",
+      "publishedAt": "2026-07-14",
+      "duration": "38:45",
+      "durationSeconds": 2325,
+      "audioUrl": "/assets/audio/ep-22.mp3",
+      "cover": "/assets/images/ep-03.jpg",
+      "featured": false
+    },
+    {
+      "id": 21,
+      "title": "Transición energética: ¿hacia dónde va el Perú?",
+      "description": "Conversamos con expertos sobre el futuro energético del país.",
+      "guest": "Dra. Carmen Vega",
+      "publishedAt": "2026-06-30",
+      "duration": "47:22",
+      "durationSeconds": 2842,
+      "audioUrl": "/assets/audio/ep-21.mp3",
+      "cover": "/assets/images/ep-04.jpg",
+      "featured": false
+    }
+  ]
+}
